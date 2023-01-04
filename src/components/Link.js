@@ -43,6 +43,10 @@ export default function Link() {
         <>
           <h4>Public Token: </h4>
           <h5>{publicToken}</h5>
+          <p>
+            Use this token in the <b>exchange token</b> API to obtail access
+            token from Plaid.
+          </p>
         </>
       )}
     </>
